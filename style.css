@@ -26,20 +26,20 @@ body {
     top: 0px;
 }
 
-.navbar 
+
 .nav-left {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar 
-.nav-left 
+
+
 .logo img {
     width: 100px;
 }
 
-.navbar .nav-left a {
+.nav-left a {
     color: black;
     margin: 0 15px;
     padding-bottom: 3px;
@@ -47,9 +47,8 @@ body {
     position: relative;
 }
 
-.navbar 
-.nav-left 
-.active::after {
+ 
+.active {
     content: "";
     border-bottom: 3px solid #A778B9;
     width: 70%;
@@ -58,7 +57,7 @@ body {
     top: 88%;
 }
 
-.navbar 
+
 .nav-right button {
     background-image: url(images\login_button_bg.png);
     background-repeat: no-repeat;
@@ -77,22 +76,22 @@ body {
     align-items: center;
 }
 
-.land-page .content h1{
+.content h1{
     margin: 15px 0;
 }
 
-.land-page 
+
 .content h1 span{
     color: #A778B9;
 }
 
-.land-page 
+
 .content p{
     color: grey;
     line-height: 1.5;
 }
 
-.pho-landing 
+ 
 .pho1{
     position: absolute;
     right: 0%;
@@ -119,31 +118,31 @@ body {
 }
 
 
-.the-second{
+.second-II{
     position: relative;
 }
 
-.the-second 
+.second-II 
 .second-section-img{
     position: absolute;
     left: 28%;
     margin-top: 90px;
 }
 
-.the-second .super img{
+.second-II .super img{
     position: absolute;
     left: 20%;
     top: 160px;
 }
 
-.the-second .super .content{
+.second-II .super .content{
     position: absolute;
     left: 18%;
     top: 332px;
     text-align: center;
 }
 
-.the-second .super h3{
+.super-gr140{
     text-align: center;
     margin: 5px 0;
     text-transform: capitalize;
@@ -151,27 +150,27 @@ body {
 }
 
 
-.the-second .text-super{
+.second-II .text-super{
     text-align: center;
     line-height: 1.3;
     margin: 3px;
     color: #595858;
 }
 
-.the-second .parent-real img{
+.parent-real img{
     position: absolute;
     left: 743px;
     margin-top: 286px;
 }
 
-.the-second .parent-real .content{
+.parent-real .content{
     position: absolute;
     left: 43%;
     top: 442px;
     text-align: center;
 }
 
-.the-second .parent-real .content h3{
+.parent-real .content h3{
     text-transform: capitalize;
     text-align: center;
     margin: 5px 0;
@@ -179,20 +178,20 @@ body {
     color: #414141;
 }
 
-.the-second .discount-parent img{
+.discount-box img{
     position: absolute;
     left: 73%;
     top: 565px;
 }
 
-.the-second .discount-parent .content{
+.discount-box .content{
     position: absolute;
     left: 68%;
     top: 700px;
     text-align: center;
 }
 
-.the-second .discount-parent .content h3{
+.discount-box .content h3{
     text-transform: capitalize;
     text-align: center;
     margin: 5px 0;
@@ -200,13 +199,13 @@ body {
     color: #414141;
 }
 
-.the-second .parent-Kudzoka img{
+.second-II .parent-Kudzoka img{
     position: absolute;
     left: 18%;
     top: 565px;
 }
 
-.the-second .parent-Kudzoka .content{
+.second-II .parent-Kudzoka .content{
     position: absolute;
     left: 22%;
     top: 665px;
@@ -344,4 +343,3 @@ footer
     top: 27.2%;
     left: 49%; 
 }
-
